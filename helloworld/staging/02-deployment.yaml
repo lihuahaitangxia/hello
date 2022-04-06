@@ -5,7 +5,7 @@ metadata:
   labels:
     app: spring-boot-helloworld
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: spring-boot-helloworld
@@ -22,3 +22,7 @@ spec:
         - name: http
           containerPort: 80
           protocol: TCP
+        resources:
+          requests:
+            cpu: 50m
+            memroy: 32Mi

@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: spring-boot-helloworld
-        image: ikubernetes/spring-boot-helloworld:v0.9.4
+        image: ikubernetes/spring-boot-helloworld:v0.8.0
         ports:
         - name: http
           containerPort: 80

@@ -31,7 +31,7 @@ kind: Rollout
 metadata:
   name: rollouts-helloworld-with-analysis
 spec:
-  replicas: 10 
+  replicas: 5
   strategy:
     canary:
       trafficRouting:

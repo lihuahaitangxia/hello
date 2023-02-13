@@ -5,7 +5,7 @@ kind: Rollout
 metadata:
   name: rollouts-helloworld-with-traffic-shifting
 spec:
-  replicas: 10 
+  replicas: 5 
   strategy:
     canary:
       trafficRouting:
